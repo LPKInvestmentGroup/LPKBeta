@@ -10,7 +10,8 @@
       <link rel="preload" as="font" type="font/woff2" href="//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/64017d81-9430-4cba-8219-8f5cc28b923e.woff2" crossorigin="">
     <html>
       <link href="style.css" rel="stylesheet" type="text/css" />
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="script.js"></script>
 
 
 
@@ -30,30 +31,32 @@
 
 
         
-    <p> <strong>Please use the form below or email directly to Inquiries@LPKInvestment.com </strong></p> <br>
+    <h2 style="font size: 18px"> <strong>Please use the form below or email directly to Inquiries@LPKInvestment.com </strong></h2> <br>
     
    
-           <form target="_blank" action="https://formsubmit.co/inquiries@lpkinvestment.com" method="POST">
+  <!--         <form target="_blank" action="https://formsubmit.co/inquiries@lpkinvestment.com" method="POST">-->
+        <form target="_self" action='https://app.formester.com/forms/ab49062a-ea0f-412b-80b6-03064c727b79/submissions' method='POST'>
           <label for="name"></label>
         <input type="text" name="name" class="form-control" placeholder="Full Name" required> <br>
           <label for="email"></label>
         <input type="email" name="email" class="form-control" placeholder="Email Address" required><br> <br> 
           <label for="message"></label> <br>
           
-        <textarea placeholder="Please Type Your Message" class="form-control" name="message" cols="50" rows="10" required></textarea>
+        <textarea placeholder="Please Type Your Message 
+(Do Not Include Personal/Confidential Info)" class="form-control" name="message" cols="50" rows="10" required></textarea>
           <!-- add hidden Honeypot input to prevent spams -->
           <input type="hidden" name="_gotcha" style="display:none !important">
           <!-- checkbox handle -->
           <br>
           
-        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+        <button type="submit" class="btn btn-lg btn-dark btn-block">Send</button>
       </form>
       </div>
     
     
     
-    <div class="menu"> 
-      <nav id="navbar">
+    <div class="menu" id="myMenu"> 
+      <!-- <nav id="navbar"> -->
       <ul>
           <li style="--i:5;"><a href="index.html">Home</a></li>
           <li style="--i:4;"><a href="TheFirm.html">Overview</a></li>
@@ -62,7 +65,9 @@
           <li style="--i:1;"><a href="ContactUs.html">Contact Us</a></li>
 
       </ul>
-      </nav>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><i class="fa fa-cog fa-spin" style="font-size:20px"></i></a>
+        
+      <!-- </nav> -->
       </div>
     </div>
   </body>
