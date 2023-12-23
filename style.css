@@ -19,14 +19,14 @@ img{
 
 .upper{
   display: grid;
- /*border: 2px solid white; */
+ border: 2px solid white; 
   grid-template-columns: minmax(min-content, 6fr)  minmax(min-content, 2fr) minmax(min-content, 1fr);
  
 }
 
 .upperFirm{
   display: grid;
-  margin: 10vh 5vw 10vh 20vw;
+  margin: 10vh 5vw 10vh 10vw;
 /*border: 2px solid #13e716;*/
   grid-template-columns: minmax(auto, 75vmax) minmax(auto, 25vmax);
 /*  grid-template-columns: minmax(auto, 75vw) minmax(auto, 25vw); */
@@ -48,12 +48,12 @@ img{
   
 }
 
-/*
-.one{
+
+/*.one{
   margin-left: 0px;
   border: 10px solid #4614d2;
-}
-*/
+}*/
+
 
 .icon{
   text-decoration: none;
@@ -74,7 +74,7 @@ img{
 
 
 .line{
- /*  border: 1px solid red; */
+/* border: 1px solid red;*/
 }
 
 /*Animated menu Section*/
