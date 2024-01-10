@@ -1,2 +1,2 @@
-Main source for replit sync
-to be clone to LPKRelease for publishing
+Being used for lpkinvestmentgroup.com
+source lpkFullSite
