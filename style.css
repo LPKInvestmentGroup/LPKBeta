@@ -21,7 +21,7 @@ img{
   display: grid;
  /*border: 2px solid white; */
   grid-template-columns: minmax(min-content, 6fr)  minmax(min-content, 2fr) minmax(min-content, 1fr);
- 
+
 }
 
 .upperFirm{
@@ -32,7 +32,7 @@ img{
 /*  grid-template-columns: minmax(auto, 75vw) minmax(auto, 25vw); */
   max-height: 90%;
   max-width: 90%;
-   
+
 }
 
 .upperFirm img { 
@@ -45,7 +45,7 @@ img{
   animation: fadeIn ease 2s;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
-  
+
 }
 
 /*
@@ -144,7 +144,7 @@ ul li:hover::after
 background: #2982b9;
 
 }
-  
+
 ul li a
 {
   text-decoration: none;
@@ -158,7 +158,7 @@ ul li a
 
 ul li:hover a{
   color: #fff;
-    
+
 }
 
 ul li:last-child::after
@@ -188,7 +188,7 @@ ul li:last-child::after
   justify-content: center;
   animation: slideinright ease 3s;
 /*  filter: drop-shadow(6px 10px 2px #6885b9);*/
-  
+
 /*  animation-duration: 3.8s;
   animation-timing-function: ease;
   animation-fill-mode: none;*/
@@ -243,7 +243,7 @@ ul li:last-child::after
   from {
     margin-left: -300%;
   }
- 
+
   to {
     marginl-left: 0%;
   }
@@ -253,10 +253,10 @@ ul li:last-child::after
   from {
     margin-top: 200%;
   }
- 
+
   to {
     margin-top: 0%;
-   
+
   }
 }
 
@@ -273,14 +273,14 @@ ul li:last-child::after
 }
 
 
- 
+
 
 #parent {  
   display: flex;
   flex-direction: row;
   color: blue;
- 
- 
+
+
 }
 
 #parent section{
@@ -316,7 +316,7 @@ justify-content: stretch;
   align-self: start;
 }
 
-  
+
 ._1Q9if, ._2Hij5 {
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -410,7 +410,7 @@ justify-content: stretch;
     right: 0;
     top: 0;
   }
- 
+
   .menu.responsive ul li {
     /*background-color: red;
     transform: scale(0.2);*/
@@ -418,7 +418,7 @@ justify-content: stretch;
     /* text-align: left; */
   }
 
-  
+
   .menu.responsive .dropdown {float: none;}
   .menu.responsive .dropdown-content {position: relative;}
   .menu.responsive .dropdown .dropbtn {
@@ -435,7 +435,7 @@ justify-content: stretch;
     float: none;
     width: 100%;
   }
-  
+
 }*/
 
 /*
@@ -451,7 +451,7 @@ justify-content: stretch;
     }
 }
 
-    
+
 @media only screen and (max-width: 550px) {
   body { background-color:yellow;}
 
